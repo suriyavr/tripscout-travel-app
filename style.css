@@ -994,6 +994,12 @@ body {
   .wanderer-text-font  {
     margin-top: 30px;
   }
+  .text-content-s1 h1 {
+    font-size: 33px;
+  }
+  .text-content-s1 p {
+    font-size: 19px;
+  }
 }
 @media (max-width: 480px) {
   .discover-btn,
