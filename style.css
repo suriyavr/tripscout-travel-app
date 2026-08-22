@@ -262,10 +262,11 @@ body {
 
 .offer-image-section {
   position: relative;
+  width: 96%;
 }
 
 .offer-image {
-  width: 690px;
+  width: 96%;
   height: 550px;
   padding: 25px;
   object-fit: cover;
@@ -830,6 +831,9 @@ body {
   .container {
     padding: 0 2%;
   }
+  .category-selection {
+    font-size: 12px;
+  }
   .header-container {
     padding: 0 10px;
     gap: 12px;
@@ -986,6 +990,9 @@ body {
   }
   .discover-btn ,.review-btn,.more-btn,.inr-btn{
     display: none;
+  }
+  .wanderer-text-font  {
+    margin-top: 30px;
   }
 }
 @media (max-width: 480px) {
