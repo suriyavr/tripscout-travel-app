@@ -476,7 +476,7 @@ body {
 
 .card {
   position: relative;
-  width: 355px;
+  width: 20%;
   height: 340px;
   border-radius: 12px;
   overflow: hidden;
@@ -503,7 +503,7 @@ body {
 
 .outdoor-card {
   position: relative;
-  width: 355px;
+  width: 20%;
   height: 340px;
   border-radius: 12px;
   overflow: hidden;
