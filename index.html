@@ -13,7 +13,7 @@
 
 <body>
     <header class="site-header">
-         <div class="header-container">
+        <div class="header-container">
             <div class="logo-content">
                 <img src="./Images/Tripadvisor_idnmAFNwHc_1.png" alt="" class="trip-logo">
 
@@ -46,7 +46,7 @@
         </div>
     </header>
     <div class="container">
-       
+
         <div class="center-section">
             <p>Where to?</p>
             <div class="category-selection">
@@ -74,13 +74,17 @@
         </div>
         <div class="offer-container">
             <div class="image-content">
-                <div class="offer-image-section"><img class="offer-image" src="./Images/caption.jpg" alt=""></div>
+                <div class="offer-image-section">
+                    <img class="offer-image" src="./Images/caption.jpg" alt="">
+                    <span class="offer-user-badge">adriansj88</span>
+                </div>
                 <span class="line-section"></span>
                 <div class="offer-text-details">
                     <h5>Score 2x Trip Cash on summer experiences</h5>
                     <h3>Book experiences through 9/7 for 10% back in Trip Cash—only in the app. Terms apply.</h3>
                     <h2 class="book-btn">Book in the app</h2>
                 </div>
+                <span class="offer-pause-icon"><i class="fa-solid fa-pause"></i></span>
             </div>
         </div>
         <div class="finding-by-interest">
@@ -213,44 +217,51 @@
                 </div>
             </div>
             <div class="explore-near-bangalore">
-                <h3>Explore experiences near Bengaluru</h3>
-                <div class="outdoor-adventure">
-                    <div class="outdoor-card">
+                <div class="section-heading">
+                    <h3>Explore experiences near Bengaluru</h3>
+                    <p class="section-subtitle">Can't-miss picks near you</p>
+                </div>
+                <div class="outdoor-adventure-wrapper">
+                    <div class="outdoor-adventure">
+                        <div class="outdoor-card">
 
-                        <img src="./Images/oldbangalore.jpg" alt="">
-                        <h4>Old Bangalore Historical Walk thro Palace, Temples, Fort & Market</h4>
-                        <p>5.0 🟢🟢🟢🟢🟢(81)</p>
-                        <p>from ₹2,000 per adult</p>
-                        <span class="heart-icon"><i class="fa-regular fa-heart"
-                                style="color: rgb(1, 9, 20);"></i></span>
+                            <img src="./Images/oldbangalore.jpg" alt="">
+                            <h4>Old Bangalore Historical Walk thro Palace, Temples, Fort & Market</h4>
+                            <p>5.0 🟢🟢🟢🟢🟢(81)</p>
+                            <p>from ₹2,000 per adult</p>
+                            <span class="heart-icon"><i class="fa-regular fa-heart"
+                                    style="color: rgb(1, 9, 20);"></i></span>
+                        </div>
+
+                        <div class="outdoor-card"><img src="./Images/mysore.jpg" alt="">
+                            <h4>Best of Mysore, UNESCO Somnathpur Temple & Srirangapatna Day Tour</h4>
+                            <p>5.0 🟢🟢🟢🟢🟢(316)</p>
+                            <p> from ₹12,500 per adult</p>
+                            <span class="heart-icon"><i class="fa-regular fa-heart"
+                                    style="color: rgb(1, 9, 20);"></i></span>
+
+
+                        </div>
+
+                        <div class="outdoor-card"><img src="./Images/nandihills.jpg" alt="">
+                            <h4>Nandi Hills Day Trip from Bangalore</h4>
+                            <p>4.8 🟢🟢🟢🟢🟢(6)</p>
+                            <p>from ₹6,175 per adult</p>
+                            <span class="heart-icon"><i class="fa-regular fa-heart"
+                                    style="color: rgb(1, 9, 20);"></i></span>
+
+                        </div>
+                        <div class="outdoor-card"><img src="./Images/sightseeing.jpg" alt="">
+                            <h4>Bangalore in a Day: Private Guided Full-Day Sightseeing Tour</h4>
+                            <p>4.9 🟢🟢🟢🟢🟢(19)</p>
+                            <p>from ₹7,770 per adult</p>
+                            <span class="heart-icon"><i class="fa-regular fa-heart"
+                                    style="color: rgb(1, 9, 20);"></i></span>
+
+                        </div>
                     </div>
-
-                    <div class="outdoor-card"><img src="./Images/mysore.jpg" alt="">
-                        <h4>Best of Mysore, UNESCO Somnathpur Temple & Srirangapatna Day Tour</h4>
-                        <p>5.0 🟢🟢🟢🟢🟢(316)</p>
-                        <p> from ₹12,500 per adult</p>
-                        <span class="heart-icon"><i class="fa-regular fa-heart"
-                                style="color: rgb(1, 9, 20);"></i></span>
-
-
-                    </div>
-
-                    <div class="outdoor-card"><img src="./Images/nandihills.jpg" alt="">
-                        <h4>Nandi Hills Day Trip from Bangalore</h4>
-                        <p>4.8 🟢🟢🟢🟢🟢(6)</p>
-                        <p>from ₹6,175 per adult</p>
-                        <span class="heart-icon"><i class="fa-regular fa-heart"
-                                style="color: rgb(1, 9, 20);"></i></span>
-
-                    </div>
-                    <div class="outdoor-card"><img src="./Images/sightseeing.jpg" alt="">
-                        <h4>Bangalore in a Day: Private Guided Full-Day Sightseeing Tour</h4>
-                        <p>4.9 🟢🟢🟢🟢🟢(19)</p>
-                        <p>from ₹7,770 per adult</p>
-                        <span class="heart-icon"><i class="fa-regular fa-heart"
-                                style="color: rgb(1, 9, 20);"></i></span>
-
-                    </div>
+                    <button class="carousel-arrow" aria-label="Next experiences"><i
+                            class="fa-solid fa-arrow-right"></i></button>
                 </div>
             </div>
         </div>
@@ -258,7 +269,8 @@
             <div class="love-content">
                 <div class="offer-image-section"><img class="offer-image" src="./Images/kiva.jpg" alt=""></div>
                 <div class="offer-text-details loved-text-font">
-                    <img src="./Images/logov1.svg" alt="" style="height:15px; width: 24px;">Tripadvisor Foundation
+                    <span class="loved-brand-tag"><img src="./Images/logov1.svg" alt=""
+                            style="height:15px; width: 24px;">Tripadvisor Foundation</span>
                     <h5 style="margin-top: 20px;">Show some love to small businesses</h5>
                     <h3>Donate to Kiva.org today to provide loans to local entrepreneurs and the Tripadvisor Foundation
                         will match it, up to $150,000 USD collectively. Terms apply.</h3>

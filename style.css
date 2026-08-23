@@ -229,7 +229,6 @@ body {
   background-color: #00EB5B;
   margin-left: 8px;
 }
-
 .offer-container,
 .loved-section,
 .wanderer-section {
@@ -582,7 +581,6 @@ body {
 .learn-more-btn {
   margin-top: 0px;
 }
-
 .traveler-choice-section {
   margin-top: 100px;
   display: flex;
@@ -759,7 +757,6 @@ body {
   align-items: center;
   gap: 4px;
 }
-
 @media (max-width: 1440px) {
   .traveler-choice-section-s2 img {
     width: 55%;
