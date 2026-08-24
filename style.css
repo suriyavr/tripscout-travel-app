@@ -391,7 +391,7 @@ body {
 .finding-text-content,
 .outdoor-adventure-section h3,
 .business-travel-section h3,
-.dinning-new-delhi h3,.explore-near-bangalore h3 
+.dinning-new-delhi h3
 {
   padding-left: 9%;
 }
@@ -477,8 +477,7 @@ body {
 }
 
 .outdoor-adventure-section {
-  margin-top: 90px;
-  margin-bottom: 80px;
+  margin-top: 50px;
 }
 
 .card {
@@ -526,7 +525,7 @@ body {
 }
 
 .inspiration-card {
-  width: 500px;
+  width: 450px;
 }
 .inspiration-card p {
   text-align: center;
@@ -562,7 +561,7 @@ body {
 
 .dinning-new-delhi,
 .explore-near-bangalore {
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 .loved-section {
@@ -574,10 +573,10 @@ body {
 }
 
 .iconic-places {
-  padding-top: 60px;
-  font-size: 25px;
+    padding-top: 50px;
+    font-size: 25px;
+    padding-bottom: 25px;
 }
-
 .learn-more-btn {
   margin-top: 0px;
 }
@@ -781,7 +780,7 @@ body {
   }
   .card,
   .outdoor-card {
-    width: 47%;
+    width: 42%;
     height: 300px;
   }
   .inspiration-card {
@@ -952,7 +951,7 @@ body {
   .card,
   .outdoor-card {
     width: 100%;
-    max-width: 380px;
+    max-width: 445px;
     height: 260px;
   }
   .wanderer-text-font h3 {
@@ -974,12 +973,18 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
   }
-  .finding-text-content ,.outdoor-adventure-section, .business-travel-section h3
+  /* .finding-text-content ,.outdoor-adventure-section, .business-travel-section h3
   .dinning-new-delhi h3 ,.dinning-new-delhi h3,.explore-near-bangalore h3,.business-travel-section h3{
     text-align: center;
-  }
+  } */
   .finding-text-content h3,.finding-text-content p {
     padding: 1px 0 12px 0;
+  }
+  .explore-near-bangalore h3 {
+  margin-bottom: 0px;
+  }
+  .finding-text-content h3, .finding-text-content p{
+    margin-bottom: 0px;
   }
   .business-travel-section ,.explore-near-bangalore,.explore-near-bangalore h3,
   .iconic-places {
@@ -999,10 +1004,12 @@ body {
     margin-top: 30px;
   }
   .text-content-s1 h1 {
-    font-size: 33px;
+    font-size: 25px;
+    padding-right: 30px;
   }
   .text-content-s1 p {
-    font-size: 19px;
+    font-size: 15px;
+    padding-right: 30px;
   }
 }
 @media (max-width: 480px) {
